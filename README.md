@@ -27,7 +27,7 @@ A Python script to search through your YouTube watch history programmatically.
 Status
 🚧 Work in Progress 🚧
 
-[x] Basic project structure with uv
-[] Google OAuth setup
-[] API integration
-[] Search functionality
+- [x] Basic project structure with uv  
+- [ ] Google OAuth setup  
+- [ ] API integration  
+- [ ] Search functionality  
