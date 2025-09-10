@@ -1,0 +1,27 @@
+[project]
+name = "youtube-history-tool"
+version = "0.1.0"
+description = "A tool to search through your YouTube watch history"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "google-auth>=2.23.4",
+    "google-auth-oauthlib>=1.1.0",
+    "google-auth-httplib2>=0.1.1",
+    "google-api-python-client>=2.108.0",
+]
+
+[project.scripts]
+youtube-history = "youtube_history_tool.main:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=7.0.0",
+    "black>=23.0.0",
+    "ruff>=0.1.0",
+]
+
