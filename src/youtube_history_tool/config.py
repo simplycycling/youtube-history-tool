@@ -2,7 +2,7 @@
 Configuration settings for YouTube API access
 """
 
-# OAuth 2.0 scopes - what permissions are being requesting
+# OAuth 2.0 scopes - what permissions we're requesting
 SCOPES = [
     'https://www.googleapis.com/auth/youtube.readonly'
 ]
@@ -17,3 +17,6 @@ API_VERSION = 'v3'
 
 # Default search parameters
 DEFAULT_MAX_RESULTS = 50
+
+# Export settings
+DEFAULT_EXPORT_FILENAME = 'watch_history.json'
