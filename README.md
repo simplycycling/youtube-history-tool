@@ -296,7 +296,7 @@ This tool processes your personal YouTube data locally. No data is transmitted a
 ## Security Notes
 
 - **All processing happens locally** on your machine
-- `client_secrets.json`, `watch_history.json` and `token.json` are gitignored
+- `client_secrets.json`, `watch_history.json`, `watch-history.json` and `token.json` are gitignored
 - **Google Takeout data** is processed offline
 - **API credentials** are only used for direct YouTube API communication
 - **Revoke access** anytime in your Google Account settings
