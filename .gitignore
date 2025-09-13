@@ -2,6 +2,7 @@
 client_secrets.json
 token.json
 credentials.json
+watch_history.json
 
 # Python-generated files
 __pycache__/
